@@ -8,7 +8,8 @@ makeCacheMatrix <- function(x = matrix()) ## x is the given invertible matrix
   ## initializing the inverse of the matrix for the cache
   inv_mat <- NULL 
   set <- function(y)
-  {
+  {          ##doing this for fun 
+                      ##doing this for fun again
     x <<- y
     inv_mat <<- NULL
   }
